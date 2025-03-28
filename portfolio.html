@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram - Machine Learning Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .header {
+            width: 100%;
+            height: 100vh;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        body {
+            background: #f4f4f4;
+            color: #1E2A38;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+        }
+        li {
+            margin: 10px 15px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 5px;
+        }
+        a:hover {
+            background-color: seagreen;
+            color: white;
+            border-radius: 3px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button-primary {
+            background: #e74c3c;
+        }
+        .button-primary:hover {
+            background: white;
+            color: black;
+        }
+        .button-secondary {
+            background: black;
+        }
+        .button-secondary:hover {
+            background: seagreen;
+        }
+        .content {
+            max-width: 50%;
+        }
+        .content h1 {
+            font-size: 36px;
+            color: black;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            color: #2980b9;
+        }
+        .tagline {
+            color: #e67e22;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .description {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .profile-pic {
+            height: 80%;
+            max-width: 35%;
+            clip-path: circle(45%);
+        }
+        .sections {
+            text-align: center;
+            padding: 50px 10%;
+        }
+        .sections h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+        }
+        .card {
+            width: 30%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .card h3 {
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#"><img src="/images/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button class="button button-primary">Get AI Consultation</button></li>
+            <li><button class="button button-secondary">Download CV</button></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="header">
+        <div class="content">
+            <p class="tagline">Building Intelligent Systems with AI & ML</p>
+            <h1>Hello, I'm <span class="highlight">Ram</span>, a Machine Learning Engineer.</h1>
+            <p class="description">
+                I specialize in developing cutting-edge machine learning models, AI-powered applications, 
+                and deep learning solutions that make data-driven decisions. Passionate about NLP, 
+                computer vision, and scalable AI.
+            </p>
+            <div class="buttons">
+                <button class="button button-primary">Learn More</button>
+                <button class="button button-secondary">Hire Me</button>
+            </div>
+        </div>
+        <img src="/assets/ram_profile.jpg" class="profile-pic" alt="Ram - ML Engineer">
+    </div>
+
+    <!-- Skills Section -->
+    <div class="sections">
+        <h2>My Expertise</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <p>Experience in supervised & unsupervised learning, model training, and evaluation.</p>
+            </div>
+            <div class="card">
+                <h3>Deep Learning</h3>
+                <p>Proficient in neural networks, CNNs, RNNs, and GANs for image & text processing.</p>
+            </div>
+            <div class="card">
+                <h3>Natural Language Processing</h3>
+                <p>Expert in transformer models (BERT, GPT), sentiment analysis, and chatbot development.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="sections">
+        <h2>Projects & Research</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Fraud Detection System</h3>
+                <p>Developed an AI-powered fraud detection system for banking transactions.</p>
+            </div>
+            <div class="card">
+                <h3>AI Chatbot</h3>
+                <p>Built an NLP-based chatbot for customer service using deep learning.</p>
+            </div>
+            <div class="card">
+                <h3>Self-Driving Car Simulation</h3>
+                <p>Implemented reinforcement learning techniques for autonomous vehicle control.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="sections">
+        <h2>Contact Me</h2>
+        <p>Email: ram.mlengineer@gmail.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/ram-ml</a></p>
+        <p>GitHub: <a href="#">github.com/ram-ml</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Ram - All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram - Machine Learning Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f4f4f4;
+            color: #1E2A38;
+        }
+        nav {
+            background: linear-gradient(90deg, #1E2A38, #34495E);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+        }
+        li {
+            margin: 0 15px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: #E67E22;
+        }
+        .button {
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button-primary {
+            background: #E67E22;
+        }
+        .button-primary:hover {
+            background: #D35400;
+        }
+        .button-secondary {
+            background: #27AE60;
+        }
+        .button-secondary:hover {
+            background: #219150;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px;
+            background: linear-gradient(135deg, #1E2A38, #2C3E50);
+            color: white;
+            border-bottom: 5px solid #E67E22;
+        }
+        .content {
+            max-width: 50%;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            color: #E67E22;
+        }
+        .tagline {
+            color: #F39C12;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .profile-pic {
+            height: 80%;
+            max-width: 30%;
+            clip-path: circle(50%);
+            border: 5px solid white;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+        }
+        .sections {
+            text-align: center;
+            padding: 50px 10%;
+        }
+        .sections h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2C3E50;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+        }
+        .card {
+            width: 30%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .card h3 {
+            color: #E67E22;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            background: #1E2A38;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#"><img src="/images/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button class="button button-primary">Get AI Consultation</button></li>
+            <li><button class="button button-secondary">Download CV</button></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="header">
+        <div class="content">
+            <p class="tagline">Innovating AI Solutions for the Future</p>
+            <h1>Hello, I'm <span class="highlight">Ram</span>, a Machine Learning Engineer.</h1>
+            <p class="description">
+                Specializing in AI, Deep Learning, and Data Science. Passionate about solving real-world 
+                problems using cutting-edge technology.
+            </p>
+            <div class="buttons">
+                <button class="button button-primary">Learn More</button>
+                <button class="button button-secondary">Hire Me</button>
+            </div>
+        </div>
+        <img src="/assets/ram_profile.jpg" class="profile-pic" alt="Ram - ML Engineer">
+    </div>
+
+    <!-- Skills Section -->
+    <div class="sections">
+        <h2>My Expertise</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <p>Building predictive models with advanced ML algorithms.</p>
+            </div>
+            <div class="card">
+                <h3>Deep Learning</h3>
+                <p>Developing CNNs, RNNs, and Transformer-based architectures.</p>
+            </div>
+            <div class="card">
+                <h3>Natural Language Processing</h3>
+                <p>Working with BERT, GPT, and sentiment analysis models.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Ram - All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
